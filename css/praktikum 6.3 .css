@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+header, footer, aside, article{
+    border: 1em solid pink;
+}
+header, footer{
+    
+    background-color: powderblue;
+}
+.items2{
+    display: flex;
+}
+aside{
+    width: 40vw;
+    height: 700px;
+    background-color: navy;
+}
+article{
+    width: 60vw;
+    height: 700px;
+    display: flex;
+    background-color: blueviolet;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+span{
+    align-self: center;
+    justify-content: center;
+}
